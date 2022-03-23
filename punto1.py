@@ -1,6 +1,6 @@
 if __name__=='__main__':
     students_grade=[]
-    for _ in range(int(input())):
+    for i in range(int(input())):
         name=input()
         score=float(input())
         students_grade.append([name,score])
